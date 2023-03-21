@@ -1,0 +1,73 @@
+/* entra as variaveis */
+$bg_color_2b2: #2B2A29;
+$bg_color_252: #252525;
+$bg_color_f26: #F26522;
+$bg_color_fff: #FFFFFF;
+
+$bd_color_fff: #FFFFFF;
+
+$bx_color_f0f: #F0F0F0;
+
+$color_111: #111111;
+$color_1f1: #1F1F1F;
+$color_212: #212121;
+$color_222: #222222;
+$color_262: #262626;
+$color_303: #30302E;
+$color_666: #666666;
+$color_9E0: #9E0116;
+$color_fff: #FFFFFF;
+$color_f1f: #F1F1F1;
+$color_f2f: #F2F0F0;
+$color_f26: #F26522;
+$color_ffd: #FFD700;
+
+$box_sh1: #aed6f1;
+$box_sh2: #f7dc6f;
+$box_sh3: #f8c47a;
+
+$font_default: 'Poppins', sans-serif;
+$font_10: 10px;
+$font_12: 12px;
+$font_13: 13px;
+$font_14: 14px;
+$font_15: 15px;
+$font_16: 16px;
+$font_17: 17px;
+$font_18: 18px;
+$font_20: 20px;
+$font_22: 22px;
+$font_24: 24px;
+$font_40: 40px;
+$font100: 100%;
+$font3re: 3rem;
+
+@mixin theme1 ($theme1: $box_sh1){
+    box-shadow: 0px 0 20px 5px $box_sh1;
+    border: 1px solid $box_sh1;
+}
+
+@mixin theme2 ($theme2: $box_sh2){
+    box-shadow: 0px 0 20px 5px $box_sh2;
+    border: 1px solid $box_sh2;
+}
+
+@mixin theme3 ($theme3: $box_sh3){
+    box-shadow: 0px 0 20px 5px $box_sh3;
+    border: 1px solid $box_sh3;
+}
+
+@mixin star ($star: $color_ffd){
+    color: $star;
+    border: 1px solid $box_sh3;
+}
+
+@mixin fashion_favorito($fashion_favorito: $color_9E0){
+    width: 100%;
+    font-size: clamp(19px, 4vw, 4rem);
+    color: $color_9E0;
+    text-align: center;
+    font-weight: bold;
+    -webkit-text-stroke: 1px $color_666;
+}
+

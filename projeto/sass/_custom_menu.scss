@@ -1,0 +1,125 @@
+.layout_padding {
+    padding-top: 90px;
+    padding-bottom: 0px;
+}
+
+.max_large{
+    width: 100%;
+    max-width: 1300px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.banner_ini_bg_main {
+    width: 100%;
+    height: auto;
+    float: left;
+    background-image: url(./../assets/images/I_banner_ini-bg.png);
+    height: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.header_section_top {
+    width: 100%;
+    float: left;
+    background-color: $bg_color_2b2;
+    clip-path: polygon(0 0, 100% 0, 94% 100%, 5% 100%);
+    height: auto;
+    padding: 10px 0px;
+}
+
+.custom_menu {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.custom_menu ul {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.custom_menu li {
+    float: left;
+    font-size: 16px;
+    color: $color_1f1;
+    padding: 6px 10px 0px 10px;
+}
+
+.custom_menu li a {
+    color: $color_f1f;
+}
+
+.custom_menu li a:hover {
+    color: $color_f26;
+    transition: color 2s;
+}
+
+.logo_section {
+    width: 100%;
+    float: left;
+}
+
+.logo {
+    width: 100%;
+    float: left;
+    padding-top: 3px; 
+    padding-left: 4%;
+    transform: skew(-15deg);
+}
+
+.header_section_top {
+    width: 100%;
+    display: inline-block;
+}
+
+.padding_10 {
+    padding-left: 10px;
+}
+
+a:hover {
+    color: $color_f26;
+    text-decoration: underline;
+}
+
+.banner_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 60px;
+}
+
+.banner_favorito {
+    width: 100%;
+    font-size: clamp(12px, 5vw, 5rem);
+    color: $color_f2f;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.buynow_bt {
+    width: 180px;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-size: 17px;
+}
+
+.buynow_bt a {
+    width: 100%;
+    float: left;    
+    color: $color_fff;
+    background-color: $bg_color_252;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.buynow_bt a:hover {
+    background-color: $bg_color_f26;
+    color: $color_fff;
+}
+

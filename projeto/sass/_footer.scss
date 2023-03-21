@@ -1,0 +1,98 @@
+
+.footer_section {
+    width: 100%;
+    float: left;
+    background-color: $bg_color_252;
+    height: auto;
+}
+
+.footer_logo {
+    width: 100%;
+    text-align: center;
+}
+
+.line {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    border-bottom: 1px solid $color_fff;
+}
+
+.footer_menu {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer_menu ul {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.footer_menu li {
+    float: left;
+    font-size: $font_16;
+    color: $color_f1f;
+    padding: 20px 10px 0px 10px;
+    display: block;
+}
+
+.footer_menu li a {
+    color: $color_fff;
+}
+
+.footer_menu li a:hover {
+    color: $color_f26;
+}
+
+.location_main {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.location_main {
+    float: left;
+    font-size: $font_16;
+    color: $color_fff;
+    padding: 30px 30px 30px 30px;
+}
+
+.location_main a {
+    color: $color_fff;
+}
+
+.location_main a:hover {
+    color: $color_f26;
+}
+
+.copyright_section {
+    width: 100%;
+    float: left;
+    background-color: $bg_color_252;
+    height: auto;
+}
+
+.copyright_text {
+    width: 100%;
+    float: left;
+    color: $color_fff;
+    text-align: center;
+    font-size: $font_16;
+    margin: 20px 0px;
+}
+
+.copyright_text a {
+    color: $color_fff;
+}
+
+.copyright_text a:hover {
+    color: $color_f26;
+}
+
+.margin_top90 {
+    margin-top: 90px;
+}
