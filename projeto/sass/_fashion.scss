@@ -1,3 +1,5 @@
+@import 'extensions';
+
 .fashion_section {
     width: 100%;
     float: left;
@@ -61,27 +63,15 @@
 }
 
 .shirt_text {
-    width: 100%;
-    font-size: $font_20;
-    color: $color_303;
-    text-align: center;
-    font-weight: bold;
-    padding-bottom: 5px;
+    @extend %shirt_text;
 }
 
 .price_text {
-    width: 100%;
-    font-size: $font_16;
-    color: $color_f26;
-    text-align: center;
-    margin: 0px;
+   @extend %price_text;
 }
 
 .tshirt_img {
-    width: 100%;
-    text-align: center;
-    margin: 30px 0px;
-    min-height: 370px;
+    @extend %tshirt_img;
 }
 
 .btn_main {

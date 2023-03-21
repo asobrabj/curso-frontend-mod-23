@@ -254,6 +254,30 @@ a:hover {
   color: #FFFFFF;
 }
 
+.shirt_text {
+  width: 100%;
+  font-size: 20px;
+  color: #30302E;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.price_text {
+  width: 100%;
+  font-size: 16px;
+  color: #F26522;
+  text-align: center;
+  margin: 0px;
+}
+
+.tshirt_img {
+  width: 100%;
+  text-align: center;
+  margin: 30px 0px;
+  min-height: 370px;
+}
+
 .fashion_section {
   width: 100%;
   float: left;
@@ -325,30 +349,6 @@ a:hover {
 .star_joi {
   color: #9E0116;
   border: 1px solid #f8c47a;
-}
-
-.shirt_text {
-  width: 100%;
-  font-size: 20px;
-  color: #30302E;
-  text-align: center;
-  font-weight: bold;
-  padding-bottom: 5px;
-}
-
-.price_text {
-  width: 100%;
-  font-size: 16px;
-  color: #F26522;
-  text-align: center;
-  margin: 0px;
-}
-
-.tshirt_img {
-  width: 100%;
-  text-align: center;
-  margin: 30px 0px;
-  min-height: 370px;
 }
 
 .btn_main {
