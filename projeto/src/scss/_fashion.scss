@@ -36,19 +36,20 @@
     padding: 20px;
     box-shadow: 0px 0 30px 10px $bx_color_f0f;
     margin-bottom: 20px;
+}
 
-.sh1:hover {
+.box_main_sh1:hover {
     @include theme1;
 }
 
-.sh2:hover {
+.box_main_sh2:hover {
     @include theme2;
 }
 
-.sh3:hover {
+.box_main_sh3:hover {
     @include theme3;
 }
-}
+
 
 
 

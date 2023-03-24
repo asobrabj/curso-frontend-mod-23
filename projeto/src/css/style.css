@@ -326,15 +326,18 @@ a:hover {
   box-shadow: 0px 0 30px 10px #F0F0F0;
   margin-bottom: 20px;
 }
-.box_main .sh1:hover {
+
+.box_main_sh1:hover {
   box-shadow: 0px 0 20px 5px #aed6f1;
   border: 1px solid #aed6f1;
 }
-.box_main .sh2:hover {
+
+.box_main_sh2:hover {
   box-shadow: 0px 0 20px 5px #f7dc6f;
   border: 1px solid #f7dc6f;
 }
-.box_main .sh3:hover {
+
+.box_main_sh3:hover {
   box-shadow: 0px 0 20px 5px #f8c47a;
   border: 1px solid #f8c47a;
 }
