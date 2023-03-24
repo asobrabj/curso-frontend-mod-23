@@ -1,0 +1,115 @@
+.footer {
+
+&__section {
+    width: 100%;
+    float: left;
+    background-color: $bg_color_252;
+    height: auto;
+}
+
+&__padding {
+    padding-top: 90px;
+    padding-bottom: 0px;
+}
+
+&__logo {
+    width: 100%;
+    text-align: center;
+}
+
+&__line {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    border-bottom: 1px solid $color_fff;
+}
+
+&__menu {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+&__lista {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+&__itens {
+    float: left;
+    font-size: $font_16;
+    color: $color_fff;
+    padding: 20px 10px 0px 10px;
+    display: block;
+}
+
+&__link {
+    color: $color_df9;
+    &:hover{
+        color: $color_yel;
+    }
+}
+
+&__location {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+
+    font-size: $font_16;
+    color: $color_df9;
+    padding: 30px 30px 30px 30px;
+}
+
+&__local_link {
+    color: $color_df9;
+    &:hover{
+        color: $color_yel;
+    }
+}
+}
+
+
+
+
+.copyright{
+
+    &__section {
+        width: 100%;
+        float: left;
+        background-color: $bg_color_252;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+&__copy_text {
+    width: 100%;
+    float: left;
+    color: $color_df9;
+    text-align: center;
+    font-size: $font_16;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+&__copy_link {
+    color: $color_df9;
+    &:hover{
+        color: $color_yel;
+    }
+}
+
+/*
+.copyright_text a {
+    color: $color_fff;
+}
+
+.copyright_text a:hover {
+    color: $color_f26;
+}
+*/
+
+}

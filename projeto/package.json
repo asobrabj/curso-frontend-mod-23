@@ -1,0 +1,42 @@
+{
+  "name": "ebac-pasta-do-exercicio-23",
+  "version": "1.0.0",
+  "description": "\"curso-frontend-mod-21 - Gulp",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/core": "^7.15.4",
+    "@babel/preset-env": "^7.15.4",
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-image": "^6.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-strip-comments": "^2.5.2",
+    "gulp-strip-css-comments": "^2.0.0",
+    "gulp-uglify": "^3.0.2",
+    "node-sass": "^8.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asobrabj/curso-frontend-mod-21.git"
+  },
+  "author": "Jose_Barbosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asobrabj/curso-frontend-mod-21/issues"
+  },
+  "homepage": "https://github.com/asobrabj/curso-frontend-mod-21#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "jquery": "^3.6.0"
+  }
+}

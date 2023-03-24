@@ -1,0 +1,213 @@
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .banner_ini_bg_main {
+        background-size: 100% 100%;
+    }
+
+    .tshirt_img {
+        margin: 20px 0px;
+        min-height: 360px;
+    }
+   
+    .electronic_img {
+        margin: 20px 0px;
+        min-height: 280px;
+    }
+   
+    .jewellery_img {
+        margin: 20px 0px;
+        min-height: 0;
+    }
+   
+    .line {
+        width: 90%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .banner_ini_bg_main {
+        background-size: 100% 100%;
+    }
+
+    .layout_padding {
+    padding-top: 50px !important;
+    }
+
+    .buynow_bt {
+    width: 160px !important;
+    font-size: $font_14 !important;
+    }
+    
+    .tshirt_img {
+        margin: 20px 0px !important;
+        min-height: 320px !important;
+    }
+    .banner_favorito {
+        font-size: $font3re !important;
+    }
+    
+    .electronic_img {
+        margin: 20px 0px !important;
+        min-height: 190px !important;
+    }
+   
+    .jewellery_img {
+        margin: 20px 0px !important;
+        min-height: 0 !important;
+    }
+    
+    .line {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .banner_ini_bg_main {
+        background-size: 100% 100%;
+    }
+	
+	.header_section_top {
+		display: none !important;
+	}
+	
+    .layout_padding {
+    padding-top: 40px !important;
+    }
+
+    .buynow_bt {
+    width: 160px !important;
+    font-size: $font_14 !important;
+    }
+     
+    .banner_favorito {
+        font-size: $font_40 !important;
+    }
+  
+    .fashion_favorito {
+        font-size: $font_24 !important;
+    }
+
+    .fashion_section {
+        padding-bottom: 100px !important;
+    }
+
+    .electronic_img {
+        margin: 20px 0px !important;
+        min-height: 145px !important;
+    }
+
+    .tshirt_img {
+        margin: 20px 0px !important;
+        min-height: 246px !important;
+    }
+
+    .jewellery_img {
+        margin: 20px 0px !important;
+        min-height: 0 !important;
+    }
+
+    .shirt_text {
+        font-size: $font_14 !important;
+    }
+
+    .price_text {
+        font-size: $font_14 !important;
+    }
+
+    .buy_bt a {
+        font-size: $font_12 !important;
+    }
+
+    .seemore_bt a {
+        font-size: $font_12 !important;
+    }
+        
+    .line {
+        width: 100% !important;
+    }
+  
+    .footer__itens {
+        float: none !important;
+        padding: 10px 10px 0px 10px !important;
+        display: block !important;
+    }
+
+    .footer__location {
+        padding: 30px 0px 30px 0px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .banner_ini_bg_main {
+        background-size: 100% 70% !important;
+    }
+	
+	.header_section_top {
+		display: none !important;
+	}
+    .logo {
+    width: 20% !important;
+    }
+
+    .layout_padding {
+    padding-top: 30px !important;
+    }
+
+    .buynow_bt {
+    width: 120px !important;
+    font-size: $font_10 !important;
+    padding-top: 1px !important;
+    }
+
+    .banner_favorito {
+        font-size: $font_24;
+    }
+
+    .fashion_favorito{
+        font-size: $font_24;
+        -webkit-text-stroke: 0px !important;
+    }
+
+    .fashion_favorito:hover {
+        color: #9E0116 !important;
+    }
+
+    .fashion_section {
+        padding-bottom: 100px;
+    }
+
+    .electronic_img {
+        margin: 20px 0px;
+        min-height: 0;
+    }
+
+    .tshirt_img {
+        margin: 20px 0px;
+        min-height: 0;
+    }
+
+    .jewellery_img {
+        margin: 20px 0px;
+        min-height: 0;
+    }
+   
+    .line {
+        width: 100%;
+    }
+
+   
+    .footer__itens {
+        float: none !important;
+        padding: 10px 10px 0px 10px;
+        display: block;
+    }
+
+    .footer__location {
+        padding: 30px 0px 30px 0px;
+    }
+
+    .copyright__copy_text{
+        text-align: center !important;
+        font-size: $font_12 !important;
+    }
+}
